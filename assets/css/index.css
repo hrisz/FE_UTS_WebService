@@ -1,0 +1,140 @@
+body {
+  font-family: "Montserrat", serif;
+  cursor: url(/assets/icon/webcur.png), auto;
+  margin: 0;
+  padding: 0;
+}
+
+video {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+nav {
+  z-index: 2;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.home-bg {
+  background-image: url(/assets/img/wp_hoyoverse.jpg);
+  background-repeat: no-repeat;
+  background-position: 72% center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+}
+
+.tablemenu-bg {
+  background-image: url(/assets/img/wp_datamenu.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+}
+
+.black-opacity {
+  background-color: black;
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  z-index: -2;
+}
+
+.mask-bg {
+  width: 100%;
+  height: 190px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#000000),
+    to(rgba(0, 0, 0, 0))
+  );
+  background: linear-gradient(to bottom, #000000, rgba(0, 0, 0, 0));
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.bottom-effect video {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+.home-logo {
+  position: absolute;
+  left: 40px;
+  z-index: 1;
+}
+
+.nav-logo {
+  position: relative;
+  bottom: 1px;
+}
+
+.navprofile {
+  position: relative;
+  bottom: 1px;
+}
+
+.header-text {
+  font-family: "Changa", serif;
+}
+
+.subcontainer-home {
+  position: relative;
+  top: 280px;
+}
+
+.posbot {
+  margin-top: 20px;
+}
+
+.mainmenu-text {
+  font-family: 'Russo One', serif;
+  text-shadow: 0.12rem 0.12rem 0.12rem rgba(0,0,0,.5);
+  position: relative;
+  bottom: 5px;
+}
+
+.mainmenu-subtext {
+  text-shadow: 0.12rem 0.12rem 0.12rem rgba(0,0,0,.5);
+}
+
+.create-acc {
+  font-family: 'Changa', serif;
+  letter-spacing: 0.3px;
+}
+
+
+.sticky-nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.scroll-pos {
+  position: absolute;
+  top: 40vh;
+}

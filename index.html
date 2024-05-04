@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>WebService | Mid Exam</title>
+    <link rel="icon" href="assets/icon/hoyo-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Changa">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Russo One">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="home-bg">
+        <!-- Navigation bar -->
+        <nav class="sticky-nav backdrop-blur-md bg-black/60 h-auto min-h-16 max-h-16 flex items-center md:justify-between sm:justify-center justify-center">
+            <span class="flex gap-4 justify-center md:ml-auto md:pr-10 items-center">
+                <!-- Navbar button -->
+                <a href="#home">
+                    <button class="header-text border-2 border-transparent border-b-white shadow-transparent hover:border-b-[#fca1e8] hover:border-x-[#fca1e8] transition px-2 py-1 text-white text-sm flex items-center ml-auto hover:shadow-lg hover:shadow-[#ff69ff]/50">
+                        <span>
+                            <img src="assets/icon/home-logo.png" class="nav-logo" alt="" width="11px">
+                        </span>&nbsp;HOME
+                    </button>
+                </a>
+                <a href="#tabledata">
+                    <button class="header-text border-2 border-transparent border-b-white shadow-transparent hover:border-b-[#fca1e8] hover:border-x-[#fca1e8] transition px-2 py-1 text-white text-sm flex items-center ml-auto hover:shadow-lg hover:shadow-[#ff69ff]/50">
+                        <span>
+                            <img src="assets/icon/statistics-logo.png" class="nav-logo" alt="" width="11px">
+                        </span>&nbsp;<p class="hidden md:block">TABLE DATA</p><p class="block md:hidden">DATA</p>
+                    </button>
+                </a>
+                <div class="gap-4"></div>
+                <a href="https://github.com/hrisz">
+                    <button class="header-text border-2 border-transparent border-l-white shadow-transparent hover:border-l-[#fca1e8] hover:border-b-[#fca1e8] transition px-2 py-1 text-white text-sm flex items-center ml-auto hover:shadow-xl hover:shadow-[#ff69ff]/50">
+                        <span>
+                            <img src="assets/icon/profileimg.png" class="navprofile" alt="" width="30px">
+                        </span>
+                        <div class="flex flex-wrap -m-2">
+                            <div class="w-auto p-2">
+                                <h2 class="text-sm text-left px-2 hidden md:block">Haris</h1>
+                                <p class="text-sm text-left px-2 hidden md:block">Web Developer</p>
+                                <p class="text-sm text-left px-2 md:hidden">PROFILE</p>
+                            </div>
+                        </div>
+                    </button>
+                </a>
+            </span>
+            <!-- Navbar image-->
+            <img src="assets/img/hoyoverse-logo.png" alt="homelogo" class="home-logo justify-start absolute object-center object-left hidden md:block" width="200px">
+        </nav>
+
+        <!-- Looping effect in bottom screen -->
+        <div class="absolute inset-0 pb-44 flex items-center justify-center bottom-effect">
+            <video data-v-fx preload="auto" autoplay muted loop class="video-effect">
+                <source src="assets/video/index_loop.mp4" type="video/mp4" class="src-video">
+            </video>
+        </div>
+        <div class="absolute inset-0 pb-44 flex items-center justify-center bottom-effect">
+            <video data-v-fx preload="auto" autoplay muted loop class="video-effect">
+                <source src="assets/video/index_loop.mp4" type="video/mp4" class="src-video">
+            </video>
+        </div>
+    
+        <!-- Home section -->
+        <section id="home" class="h-screen pt-6">
+
+            <!-- Masking on top -->
+            <!-- <div class="mask-bg"></div> -->
+
+            <!-- Middle content -->
+            <div class="z-0 md:container-lg md:mx-auto px-8 pb-4 h-64 grid grid-rows-3 gap-4 justify-center items-center subcontainer-home">
+
+                <!-- Caption text -->
+                <p class="text-white text-center text-3xl xs:text-3xl sm:text-4xl md:text-5xl font-medium shadow-[#ff69ff]/50 mainmenu-text textfx">Journey Beyond The Horizon</p>
+                <div class="z-10 flex flex-col items-center posbot">
+                    <img src="/assets/img/hr_img.png" class="my-2" alt="">
+                    <span class="flex justify-center gap-3 py-2">
+                        <!-- Show data middle button -->
+                        <button class="create-acc md:px-2 md:py-1 text-white border-2 border-white rounded-lg shadow-transparent bg-[#fca1e8]/50 px-2 py-1 hover:bg-[#a76b9a]/50 hover:shadow-lg hover:shadow-[#ff69ff]/50">
+                            <a class="hidden md:block" href="#tabledata">SHOW STATISTIC DATA</a>
+                            <a class="block text-base md:hidden" href="#tabledata">STATISTIC DATA</a>
+                        </button>
+                        <!-- Profile middle button -->
+                        <a href="https://github.com/hrisz">
+                            <button class="create-acc md:px-2 md:py-1 text-white border-2 border-white rounded-lg shadow-transparent bg-black/50 px-4 py-1 hover:bg-[#a76b9a]/50 hover:shadow-lg hover:shadow-[#ff69ff]/50">
+                                MY PROFILE
+                            </button>
+                        </a>
+                    </span>
+
+                <!-- Home description -->
+                    <p class="text-white md:text-sm text-xs text-center font-medium py-3 mainmenu-subtext">
+                        a website for showing <a class="bg-[#7c72a9] font-bold">&nbsp;Hoyoverse animation&nbsp;</a> statistic data like total watched, likes, etc.<br>
+                        purpose for mid exam <a class="bg-[#6291cc] font-bold">&nbsp;web service project.&nbsp;</a>
+                    </p>
+                    <div class="hidden md:block sm:block animate-bounce bg-gradient-to-r from-violet-500/50 to-fuchsia-500/50 my-4 px-2 py-2 rounded-full scroll-pos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" class="w-8 h-8" viewBox="0 0 24 24" fill="none">
+                            <path d="M5 15C5 16.8565 5.73754 18.6371 7.05029 19.9498C8.36305 21.2626 10.1435 21.9999 12 21.9999C13.8565 21.9999 15.637 21.2626 16.9498 19.9498C18.2625 18.6371 19 16.8565 19 15V9C19 7.14348 18.2625 5.36305 16.9498 4.05029C15.637 2.73754 13.8565 2 12 2C10.1435 2 8.36305 2.73754 7.05029 4.05029C5.73754 5.36305 5 7.14348 5 9V15Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 6V14" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15 11L12 14L9 11" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>                                                                  
+                </div>
+            </div>
+        </section>
+
+        <!-- Table Data Section -->
+        <section id="tabledata">
+            <div class="tablemenu-bg rounded-t-3xl">
+                <center>
+                    <img src="/assets/img/hr_img.png" class="pt-4" alt="">
+                </center>
+                <div class="container mx-auto px-10 sm:px-14 md:px-18 pt-20">
+                    <p class="flex text-md justify-start items-center md:text-2xl rounded-l-md header-text text-white mb-2 bg-gradient-to-r from-violet-500/80 to-transparent to-50% border-transparent border-l-purple-600/70">&nbsp; <img src="assets/icon/hoyo-logo.png" class="w-8 h-8 text-sm" alt="">&nbsp;ANIMATION STATISTIC DATA</p>
+                    <div class="flex justify-start md:justify-end mb-2">
+                        <p class="mr-auto text-white text-sm hidden md:block">This data is collected from <a class="bg-[#ff0000] font-bold rounded-md">&nbsp;YouTube&nbsp;</a> using <a class="bg-[#7c72a9] font-bold rounded-md">&nbsp;SocialBlade&nbsp;</a></p>
+                        <svg class="top-0 bottom-0 mt-auto mb-auto text-slate-400 h-5 w-5 mr-2 mt-0.5" viewBox="0 0 20 20" fill="white">
+                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                        </svg>
+                        <input type="text" name="searchdata" placeholder="&nbsp; Search" class="rounded-md ring-slate-900/10 shadow-sm rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500 caret-pink-500 pl-2">
+                    </div>
+                    <div class="rounded-xl overflow-x-auto">
+                        <table class="min-w-full text-xs">
+                            <colgroup>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                                <col class="w-24">
+                            </colgroup>
+                            <thead class="text-white header-text text-xs uppercase bg-gradient-to-r from-indigo-500/50 via-purple-500/50 to-pink-500/50 backdrop-blur-md>
+                                <tr class="text-center">
+                                    <th class="p-3 border-2 border-transparent border-b-violet-600/80 border-r-white">Animation ID</th>
+                                    <th class="p-3 border-2 border-transparent border-b-violet-600/70 border-r-white">Title</th>
+                                    <th class="p-3 border-2 border-transparent border-b-violet-600/70 border-r-white">Game</th>
+                                    <th class="p-3 border-2 border-transparent border-b-pink-600/60 border-r-white">Views</th>
+                                    <th class="p-3 border-2 border-transparent border-b-pink-600/60 border-r-white">Likes</th>
+                                    <th class="p-3 border-2 border-transparent border-b-pink-600/60 border-r-white">Comments</th>
+                                    <th class="p-3 border-2 border-transparent border-b-pink-600/60">URL Animation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-50">
+                                    <td class="p-3">
+                                        <p>97412378923</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>Untitled</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>Genshin Impact</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>20,112</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <p>15,792</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <p>15,792</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <span class="px-3 py-1 font-semibold rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                            <span>Pending</span>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-50">
+                                    <td class="p-3">
+                                        <p>97412378923</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>Untitled</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>Honkai Impact 3rd</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>15,792</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <p>275</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <p>15,792</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <span class="px-3 py-1 font-semibold rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                            <span>Pending</span>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-50">
+                                    <td class="p-3">
+                                        <p>97412378923</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>Untitled</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>Genshin Impact</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>15,792</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <p>8,950,500</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <p>15,792</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <span class="px-3 py-1 font-semibold rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                            <span>Pending</span>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="border-b border-opacity-20 dark:border-gray-300 dark:bg-gray-50">
+                                    <td class="p-3">
+                                        <p>97412378923</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>Untitled</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>Honkai Star Rail</p>
+                                    </td>
+                                    <td class="p-3">
+                                        <p>12,234</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <p>98,218</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <p>15,792</p>
+                                    </td>
+                                    <td class="p-3 text-center">
+                                        <span class="px-3 py-1 font-semibold rounded-md dark:bg-violet-600 dark:text-gray-50">
+                                            <span>Pending</span>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+<script src="assets/js/main-scramble.js"></script>
+</body>
+
+</html>
