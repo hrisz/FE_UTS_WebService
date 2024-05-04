@@ -20,7 +20,7 @@ div {
 }
 
 .home-bg {
-  background-image: url(/assets/img/wp_hoyoverse.jpg);
+  background-image: url("assets/img/wp_hoyoverse.jpg");
   background-repeat: no-repeat;
   background-position: 72% center;
   background-size: cover;
