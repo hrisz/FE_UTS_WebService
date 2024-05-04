@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", serif;
-  cursor: url("./icon/webcur.png"), auto;
+  cursor: url("../icon/webcur.png"), auto;
   margin: 0;
   padding: 0;
 }
@@ -20,7 +20,7 @@ div {
 }
 
 .home-bg {
-  background-image: url("./img/wp_hoyoverse.jpg");
+  background-image: url("../img/wp_hoyoverse.jpg");
   background-repeat: no-repeat;
   background-position: 72% center;
   background-size: cover;
@@ -31,7 +31,7 @@ div {
 }
 
 .tablemenu-bg {
-  background-image: url("./img/wp_datamenu.jpg");
+  background-image: url("../img/wp_datamenu.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
