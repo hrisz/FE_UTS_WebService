@@ -1,0 +1,1 @@
+export let urlAPI = "https://uts-webservice-9c2ac02d9269.herokuapp.com/animeid";

@@ -1,7 +1,5 @@
 import { get } from "https://bukulapak.github.io/api/process.js";
-let urlAPI = "https://uts-webservice-9c2ac02d9269.herokuapp.com/animeid"
-get(urlAPI, valAniData);
+import { valTable } from "./controller/get.js"
+import { urlAPI } from "./config/url.js";
 
-function valAniData(results){
-    console.log(results);
-}
+get(urlAPI, valTable);
