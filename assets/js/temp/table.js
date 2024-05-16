@@ -15,7 +15,7 @@ export let aniData = `
 <td class="p-3">
     <div class="text-transparent h-2 animate-pulse bg-slate-200 rounded col-span-2">#Date#</div>
 </td>
-<td class="p-3">
+<td class="p-3 text-center">
     <div class="text-transparent h-2 animate-pulse bg-slate-200 rounded col-span-2">#View#</div>
 </td>
 <td class="p-3 text-center">
